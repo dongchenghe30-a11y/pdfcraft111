@@ -9,6 +9,9 @@ export const metadata: Metadata = {
     shortcut: '/favicon.svg',
     apple: '/favicon.svg',
   },
+  other: {
+    'baidu-site-verification': 'codeva-2aYVxOY5mA',
+  },
 };
 
 // Root layout - provides the basic HTML structure
