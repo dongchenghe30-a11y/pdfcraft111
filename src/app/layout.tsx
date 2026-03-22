@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   },
   other: {
     'baidu-site-verification': 'codeva-2aYVxOY5mA',
+    'monetag': '2cfea566a9706ea849b854cc7d1a1930',
   },
 };
 
@@ -25,6 +26,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="color-scheme" content="light dark" />
+        <meta name="monetag" content="2cfea566a9706ea849b854cc7d1a1930" />
         <style dangerouslySetInnerHTML={{ __html: 'html{scrollbar-gutter:stable}' }} />
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
