@@ -27,6 +27,8 @@ export default function RootLayout({
       <head>
         <meta name="color-scheme" content="light dark" />
         <meta name="monetag" content="2cfea566a9706ea849b854cc7d1a1930" />
+        {/* 广告代码 */}
+        <script src="https://quge5.com/88/tag.min.js" data-zone="222094" async data-cfasync="false"></script>
         <style dangerouslySetInnerHTML={{ __html: 'html{scrollbar-gutter:stable}' }} />
       </head>
       <body className="min-h-screen bg-background text-foreground antialiased">
